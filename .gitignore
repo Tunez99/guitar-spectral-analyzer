@@ -15,6 +15,9 @@ env/
 .vscode/
 .idea/
 
+# Test Files
+testfiles/
+
 # OS files
 .DS_Store
 Thumbs.db
