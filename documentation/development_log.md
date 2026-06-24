@@ -32,3 +32,16 @@ Explore why different onset detection methods converge on similar BPM estimates 
 The immediate focus will be building intuition around DSP fundamentals before expanding the BPM detection system further.
 
 # 24/06/2026
+Today was very big, focused on implementation with some basic DSP ideology behind it, with a focus on UI and plotting, then implementing some basic filters. 
+
+It's abit unintuitive still, but its building. We can take note of how the waveform transforms with applied filters. Due to lack of technical knowledge, we will aim to follow through with the following approach. 
+
+1. Read through the codebase
+2. Add comments
+3. Update documentation -> Research Specifically
+4. Write down what each visualisation should teach
+5. Implement spectrum visualisations
+
+I want to improve filtering first and create a ideal workflow, this may involve some refactoring to help modularise the application from this point to allow easier access to changes. We also want to reduce duplicate code and try have plots be callable for various different methods later. I also want to explore sampling, specifically averaging of samples with visualisation and ideology behind these implementations. This should help progress both understanding, modularised code, and future implementation.
+
+#

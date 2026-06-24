@@ -35,12 +35,7 @@ def run_bpm_pipeline(
     frames = frame_signal(mono, frame_size, hop_size)
 
     energy = calculate_rms_energy(frames)
-    
-    max_onset = max(abs(onset))
 
-    if max_onset > 0:
-        onset = onset / max_onset
-        
     if onset_method == "rms":
         smoothed_energy = smooth_signal(
             energy,
@@ -61,6 +56,11 @@ def run_bpm_pipeline(
 
     else:
         raise ValueError(f"Unknown onset method: {onset_method}")
+
+    max_onset = max(abs(onset))
+
+    if max_onset > 0:
+        onset = onset / max_onset
 
     onset_peaks = pick_onset_peaks(
         onset,

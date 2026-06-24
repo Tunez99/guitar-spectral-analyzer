@@ -3,7 +3,7 @@
 set -e
 
 VENV_DIR=".venv"
-APP_FILE="app/app.py"
+APP_FILE="app/main.py"
 
 cd "$(dirname "$0")/.."
 
