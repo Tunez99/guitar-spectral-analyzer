@@ -10,15 +10,15 @@ This project aims to provide visual and analytical tools that help musicians und
 
 Rather than attempting to automatically generate perfect guitar tabs, the goal is to create an interactive analysis platform that assists the transcription process.
 
+## Run Information
+
+If requirements.txt changes, manually run:
+source .venv/bin/activate
+python -m pip install -r requirements.txt
+
 ## Features
 
 ### Current Features
-
-* Audio file loading
-* Waveform visualization
-* STFT spectrogram generation
-* RMS loudness analysis
-* Interactive Streamlit interface
 
 ### Planned Features
 
