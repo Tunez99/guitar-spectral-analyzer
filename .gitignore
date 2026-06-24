@@ -15,8 +15,11 @@ env/
 .vscode/
 .idea/
 
-# Test Files
-testfiles/
+# Testing
+tests/
+
+# Personal
+ideas.md 
 
 # OS files
 .DS_Store
