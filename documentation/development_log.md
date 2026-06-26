@@ -44,4 +44,5 @@ It's abit unintuitive still, but its building. We can take note of how the wavef
 
 I want to improve filtering first and create a ideal workflow, this may involve some refactoring to help modularise the application from this point to allow easier access to changes. We also want to reduce duplicate code and try have plots be callable for various different methods later. I also want to explore sampling, specifically averaging of samples with visualisation and ideology behind these implementations. This should help progress both understanding, modularised code, and future implementation.
 
-#
+# 26/06/2026
+Now that i have a better idea of what I want to build, the next few days will be dedicated to learning architecure and reading the streamlit documentation so i can avoid entanglment in code and help streamline my work process. Once we set up a system I imagine continued exploration of DSP will become easier.
