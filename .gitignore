@@ -17,6 +17,7 @@ env/
 
 # Testing
 tests/
+scripts/run_sandbox.sh
 
 # Personal
 ideas.md 
